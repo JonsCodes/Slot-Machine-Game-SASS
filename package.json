@@ -1,0 +1,16 @@
+{
+  "name": "slot-machine-game-sass",
+  "version": "1.0.0",
+  "description": "## Deployment",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.3"
+  }
+}
