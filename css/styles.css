@@ -1,5 +1,13 @@
+body {
+  background-image: url(../assets/images/erica-minor-oqhIRiA5FmY-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  margin: 0;
+}
+
 .container {
-  background-image: url(assets/images/erica-minor-oqhIRiA5FmY-unsplash.jpg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,14 +32,12 @@ h1 {
   border: 10px solid #aaa;
   border-radius: 10px;
 }
-  
-.reels {
+.slot-machine .reels {
   display: flex;
   justify-self: center;
   margin-bottom: 20px;
 }
-  
- .reel {
+.slot-machine .reel {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,17 +52,15 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
- }
-
- .controls {
+}
+.slot-machine .controls {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
- }
-
- #spin-button {
-  background-color: #f00;
+}
+.slot-machine .controls #spin-button {
+  background-color: #cc0000;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -64,20 +68,18 @@ h1 {
   font-size: 20px;
   cursor: pointer;
   margin-right: 10px;
-  width: 160px; /* Set a fixed width */
-  text-align: center; /* Center the text horizontally */
+  width: 160px;
+  text-align: center;
 }
-
- #coin-count {
+.slot-machine .controls #coin-count {
   font-size: 20px;
-  width: 100px; /* Set a fixed width */
-  text-align: center; /* Center the text horizontally */
- }
-
- #result-message {
+  width: 100px;
+  text-align: center;
+}
+.slot-machine .controls #result-message {
   margin-top: 100px;
-  padding: 10px 20px; /* Add padding to create a box */
-  background-color: lightgray; /* Same background color as slot-machine */
+  padding: 10px 20px;
+  background-color: lightgray;
   font-size: 35px;
   font-weight: bold;
   text-align: center;
@@ -90,12 +92,12 @@ h1 {
   background-color: lightcyan;
   padding: 20px;
 }
-
 .instruction-box h2 {
   font-size: 18px;
   margin-bottom: 10px;
 }
-
 .instruction-box p {
   margin-bottom: 5px;
 }
+
+/*# sourceMappingURL=styles.css.map */
